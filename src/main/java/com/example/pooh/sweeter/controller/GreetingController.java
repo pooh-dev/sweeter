@@ -11,7 +11,7 @@ public class GreetingController {
 
     @GetMapping
     public String main(Map<String, Object> model) {
-        model.put("some", "Hey Dude! What's up.");
+        model.put("some", "Hey Dude! What's up. (v2)");
         return "main";
     }
 
